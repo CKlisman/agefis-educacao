@@ -1,0 +1,14 @@
+{
+  "name": "agefis-educacao-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard de indicadores educacionais agregados.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node preview.mjs",
+    "test": "node verify.mjs && node --check dist/app.mjs"
+  }
+}
