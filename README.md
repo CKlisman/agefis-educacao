@@ -2,7 +2,9 @@
 
 Dashboard executivo de indicadores educacionais agregados, desenvolvido por **Caio Klisman** com apoio do Codex.
 
-![Painel executivo de educação](docs/demo.png)
+![Painel executivo de educação](docs/screenshots/01-visao-geral.jpg)
+
+[Veja a galeria com as principais telas reais](docs/GALERIA.md)
 
 ## Problema e solução
 
