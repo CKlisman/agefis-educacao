@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#343738"><meta name="robots" content="noindex,nofollow">
+  <title>AGEFIS + Educação | Painel executivo • Caio Klisman</title>
+  <meta name="description" content="Painel executivo do levantamento AGEFIS + Educação. Vínculos, educação dos colaboradores e instituições citadas. Desenvolvido por Caio Klisman.">
+  <meta property="og:title" content="AGEFIS + Educação | Painel executivo"><meta property="og:description" content="Indicadores do levantamento educacional. Desenvolvido por Caio Klisman.">
+  <link rel="icon" type="image/png" href="assets/agefis-logo-pmf.png"><link rel="stylesheet" href="styles.css?v=2"><link rel="stylesheet" href="brand.css?v=2">
+  <script type="module" src="app.mjs?v=3"></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<aside class="sidebar">
+  <a class="brand" href="#conteudo" aria-label="AGEFIS Educação, início"><span>AGEFIS<small>+ Educação</small></span></a>
+  <div class="side-rule"></div>
+  <nav aria-label="Navegação do painel">
+    <a class="active" href="#conteudo"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Visão geral</a>
+    <a href="#instituicoes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 9 9-6 9 6M4 10h16M6 10v9m6-9v9m6-9v9M3 21h18"/></svg>Instituições de ensino</a>
+    <a href="#metodologia"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7m-7 4h7"/></svg>Sobre os dados</a>
+  </nav>
+  <div class="side-info"><span class="small-dot"></span>Levantamento 2026<p>Bolsas e descontos<br>em instituições de ensino</p></div>
+  <div class="signature"><span class="avatar">CK</span><div>Caio Klisman<small>Desenvolvimento do painel</small></div></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><img class="institutional-logo" src="assets/agefis-logo-pmf.png" alt="AGEFIS — Agência de Fiscalização de Fortaleza e Prefeitura de Fortaleza" width="334" height="49"><div class="header-context"><span class="header-title">Painel executivo de educação</span><span class="snapshot"><span></span>Base de 22 out. 2026</span></div></header>
+  <main id="conteudo" tabindex="-1">
+    <div class="page-title"><div><p class="kicker">Levantamento de interesse em bolsas e descontos</p><h1>Educação em números</h1><p>Um retrato dos colaboradores e da demanda por parcerias educacionais.</p></div><div class="actions"><button id="share" class="button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 15 15 9M8 17l-2 2a4 4 0 0 1-6-6l4-4m12 6 4-4a4 4 0 0 0-6-6l-2 2" transform="translate(2 0)"/></svg>Copiar link</button><button id="print" class="button primary" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>Imprimir / PDF</button></div></div>
+    <p id="notification" role="status" class="notification" aria-live="polite"></p>
+    <section class="filterbar" aria-label="Filtros do painel"><div class="filter-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg>Filtrar análise</div><label>Vínculo<select id="vinculo"><option value="">Todos os vínculos</option><option>Efetivo</option><option>Comissionado</option><option>Terceirizado</option><option>Estagiário</option></select></label><label>Colaborador estuda?<select id="study"><option value="">Todas as respostas</option><option>Sim</option><option>Não</option><option>Não informado</option></select></label><label>Dependente estuda?<select id="dep"><option value="">Todas as respostas</option><option>Sim</option><option>Não</option><option>Não informado</option></select></label><button class="reset" id="reset" type="button">Limpar filtros</button></section>
+    <div id="loading" role="status" class="loading">Carregando indicadores…</div>
+    <div id="dashboard" hidden>
+      <div class="base-line"><span id="base" aria-live="polite"></span><span>Respostas de 29 set. a 15 out. 2026</span></div>
+      <section id="kpis" class="kpis" aria-label="Resumo por vínculo"></section>
+      <section class="charts" aria-label="Indicadores educacionais">
+        <article class="panel"><div class="panel-heading"><h2>Composição dos vínculos</h2><span class="subtle">Colaboradores</span></div><div id="vinculo-chart" class="composition"></div></article>
+        <article class="panel"><div class="panel-heading"><h2>Colaboradores estudam?</h2><span class="tag">Educação</span></div><div id="study-chart"></div><p class="panel-note">Resposta à pergunta “já estuda atualmente?”.</p></article>
+        <article class="panel"><div class="panel-heading"><h2>Dependentes estudam?</h2><span class="tag">Família</span></div><div id="dep-chart"></div><p class="panel-note">“Não” indica que o dependente não estuda; não confirma ausência de dependentes.</p></article>
+      </section>
+      <div class="important"><span class="info-icon" aria-hidden="true">i</span><p><strong>Ter dependentes: informação não coletada.</strong> O formulário pergunta se o dependente estuda. Por isso, esta base não permite afirmar quantos colaboradores têm ou não têm dependentes.</p></div>
+      <section id="instituicoes" class="institution-section"><div class="section-heading"><div><h2>Instituições de ensino citadas</h2><p>Instituição atual ou desejada para bolsa ou desconto, conforme o formulário.</p></div><label class="scope-label">Considerar<select id="scope"><option value="yes">Apenas quem respondeu “Sim”</option><option value="all">Todas as menções de interesse</option></select></label></div>
+        <div class="institution-grid"><article class="panel ranking-panel"><div class="panel-heading"><div><span class="group-label">Colaboradores</span><h3>Onde estudam ou gostariam de estudar</h3></div><span id="coll-badge" class="number-badge"></span></div><div id="coll-rank"></div><button id="coll-more" class="more" type="button" aria-expanded="false">Ver todas as instituições</button><p id="coll-quality" class="panel-note"></p></article>
+        <article class="panel ranking-panel"><div class="panel-heading"><div><span class="group-label">Dependentes</span><h3>Onde estudam ou gostariam de estudar</h3></div><span id="dep-badge" class="number-badge"></span></div><div id="dep-rank"></div><button id="dep-more" class="more" type="button" aria-expanded="false">Ver todas as instituições</button><p id="dep-quality" class="panel-note"></p></article></div>
+        <p class="footnote">Contagem por colaborador que citou cada instituição. Uma pessoa pode citar várias instituições. As menções não confirmam matrícula nem representam a quantidade de dependentes.</p>
+      </section>
+      <section class="panel breakdown"><div class="panel-heading"><div><h2>Indicadores por vínculo</h2><p class="subtle">Comparativo no recorte selecionado</p></div><button id="export" class="button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Exportar resumo CSV</button></div><div class="table-scroll"><table><caption class="sr-only">Totais de colaboradores, estudo e dependentes por vínculo</caption><thead><tr><th scope="col">Vínculo</th><th scope="col">Colaboradores</th><th scope="col">Estudam</th><th scope="col">Não estudam</th><th scope="col">Dependente estuda</th><th scope="col">Dependente não estuda</th><th scope="col">Dependente: não informado</th></tr></thead><tbody id="breakdown"></tbody></table></div></section>
+      <section id="metodologia" class="method"><div class="section-heading"><div><h2>Sobre os dados</h2><p>Como ler este levantamento</p></div><span class="tag">Base conferida em 22/10/2026</span></div><div class="method-grid"><div><h3>51 colaboradores, 54 envios</h3><p>Uma pessoa enviou 4 respostas, identificadas pelo mesmo e-mail, nome e telefone. Foi mantido o envio mais recente e excluídos os 3 anteriores. Os totais foram recalculados a partir do Excel original. Os dados retratam os respondentes, não o quadro total da AGEFIS.</p></div><div><h3>Instituições atuais ou desejadas</h3><p>O campo reúne instituição atual e interesse em bolsas. Grafias equivalentes e unidades foram agrupadas. Ari de Sá e Farias Brito não distinguem nível de ensino. “CHISTUS” é um nome a confirmar. Menções genéricas, como “creche municipalizada”, entram como sem instituição identificável. Não se presume matrícula.</p></div><div><h3>Retrato de 22 de outubro de 2026</h3><p>Fonte: levantamento AGEFIS + Educação, arquivo de respostas fornecido pelo Drive. Esta versão é uma fotografia da base e não recebe novas respostas automaticamente. A apresentação contém apenas informações agregadas.</p></div></div></section>
+    </div>
+    <footer><img class="footer-logo" src="assets/agefis-logo-pmf.png" alt="AGEFIS e Prefeitura de Fortaleza" width="334" height="49" loading="lazy"><span>Desenvolvido por <strong>Caio Klisman</strong></span></footer>
+  </main>
+</div>
+</body>
+</html>

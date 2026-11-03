@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "updated": "22/10/2026",
+    "responseStart": "29/09/2026",
+    "responseEnd": "15/10/2026",
+    "responses": 54,
+    "people": 51,
+    "excluded": 3,
+    "author": "Caio Klisman",
+    "sourceTitle": "AGEFIS + Educação — Levantamento de interesse em bolsas e descontos",
+    "snapshot": true
+  },
+  "groups": [
+    {
+      "vinculo": "Efetivo",
+      "study": "Não",
+      "dep": "Sim",
+      "n": 25,
+      "collInstitutions": {
+        "Unifor": 7,
+        "Unichristus": 1,
+        "Uniateneu": 1,
+        "UFC": 5,
+        "UECE": 3,
+        "Udemy": 1,
+        "Preditiva": 1,
+        "Insper": 1,
+        "Aliança Francesa": 1,
+        "CNA": 1,
+        "Ari de Sá": 1,
+        "Uniasselvi": 1
+      },
+      "depInstitutions": {
+        "Casa da Tia Léa": 1,
+        "Colégio Antares": 1,
+        "Colégio Santa Cecília": 1,
+        "Lourenço Filho": 1,
+        "Kumon": 1,
+        "Colégio 7 de Setembro": 1,
+        "Ari de Sá": 4,
+        "Colégio Darwin": 1,
+        "Farias Brito": 3,
+        "CNA": 2,
+        "Cultura Inglesa": 1,
+        "Casa de Criança": 1,
+        "Colégio Maria Ester": 1,
+        "Unifor": 1,
+        "Colégio Master": 2,
+        "Uni7 (FA7)": 1,
+        "Colégio Menino Jesus de Praga": 1,
+        "Colégio Santa Isabel": 2,
+        "Colégio Dom Felipe": 1,
+        "Wizard": 1
+      },
+      "collBlank": 5,
+      "depBlank": 4,
+      "collUnidentified": 3,
+      "depUnidentified": 2
+    },
+    {
+      "vinculo": "Efetivo",
+      "study": "Não",
+      "dep": "Não",
+      "n": 8,
+      "collInstitutions": {
+        "Unifor": 6,
+        "UFC": 2,
+        "UECE": 1,
+        "CHISTUS (nome a confirmar)": 1
+      },
+      "depInstitutions": {
+        "Unifor": 1
+      },
+      "collBlank": 2,
+      "depBlank": 7,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Terceirizado",
+      "study": "Não",
+      "dep": "Sim",
+      "n": 2,
+      "collInstitutions": {},
+      "depInstitutions": {
+        "Colégio Shalom": 1,
+        "Unichristus": 1
+      },
+      "collBlank": 2,
+      "depBlank": 0,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Efetivo",
+      "study": "Não",
+      "dep": "Não informado",
+      "n": 3,
+      "collInstitutions": {
+        "Fiocruz": 1,
+        "FGV": 1,
+        "Hospital Albert Einstein": 1,
+        "Unifor": 1,
+        "UFC": 1,
+        "UECE": 1
+      },
+      "depInstitutions": {
+        "Colégio Christus": 1,
+        "Colégio 7 de Setembro": 1
+      },
+      "collBlank": 0,
+      "depBlank": 2,
+      "collUnidentified": 1,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Estagiário",
+      "study": "Sim",
+      "dep": "Sim",
+      "n": 2,
+      "collInstitutions": {
+        "Estácio": 2
+      },
+      "depInstitutions": {
+        "Unifor": 1,
+        "Colégio Capistrano": 1
+      },
+      "collBlank": 0,
+      "depBlank": 0,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Terceirizado",
+      "study": "Não",
+      "dep": "Não",
+      "n": 1,
+      "collInstitutions": {},
+      "depInstitutions": {},
+      "collBlank": 1,
+      "depBlank": 1,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Efetivo",
+      "study": "Sim",
+      "dep": "Não informado",
+      "n": 2,
+      "collInstitutions": {
+        "Unifor": 1,
+        "Unichristus": 1,
+        "Uni7 (FA7)": 1,
+        "UFC": 1,
+        "UECE": 1
+      },
+      "depInstitutions": {},
+      "collBlank": 1,
+      "depBlank": 2,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Comissionado",
+      "study": "Não",
+      "dep": "Não",
+      "n": 2,
+      "collInstitutions": {
+        "ESPM": 1,
+        "PUC": 1,
+        "FAAP": 1
+      },
+      "depInstitutions": {
+        "Gran Cursos": 1
+      },
+      "collBlank": 0,
+      "depBlank": 1,
+      "collUnidentified": 1,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Efetivo",
+      "study": "Sim",
+      "dep": "Sim",
+      "n": 3,
+      "collInstitutions": {
+        "UECE": 2,
+        "UFC": 1,
+        "Unifor": 1,
+        "Grau Técnico": 1
+      },
+      "depInstitutions": {
+        "Colégio Manuel da Silva": 1,
+        "Ari de Sá": 1,
+        "Farias Brito": 1,
+        "Colégio Maximus": 1,
+        "Colégio Master": 1,
+        "UniAri": 1
+      },
+      "collBlank": 0,
+      "depBlank": 0,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Terceirizado",
+      "study": "Sim",
+      "dep": "Sim",
+      "n": 1,
+      "collInstitutions": {
+        "Estácio": 1
+      },
+      "depInstitutions": {
+        "Colégio Maria Ester": 1
+      },
+      "collBlank": 0,
+      "depBlank": 0,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Comissionado",
+      "study": "Não",
+      "dep": "Sim",
+      "n": 1,
+      "collInstitutions": {},
+      "depInstitutions": {
+        "Casa de Criança": 1
+      },
+      "collBlank": 1,
+      "depBlank": 0,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    },
+    {
+      "vinculo": "Efetivo",
+      "study": "Sim",
+      "dep": "Não",
+      "n": 1,
+      "collInstitutions": {
+        "UECE": 1
+      },
+      "depInstitutions": {},
+      "collBlank": 0,
+      "depBlank": 1,
+      "collUnidentified": 0,
+      "depUnidentified": 0
+    }
+  ]
+}

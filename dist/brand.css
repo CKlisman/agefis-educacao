@@ -1,0 +1,20 @@
+/* Identidade AGEFIS / Prefeitura de Fortaleza. A arte oficial permanece integral. */
+.sidebar{border-top:4px solid #f58220;padding-top:26px}
+.brand{padding:8px 10px 4px;border-left:3px solid #f58220;font-size:25px;line-height:1.2}
+.brand small{color:#ffac65;font-size:14px;margin-top:7px}
+.topbar{height:96px;gap:24px;border-bottom:3px solid #f58220;background:#fff}
+.institutional-logo{display:block;width:334px;max-width:100%;height:auto;object-fit:contain;flex-shrink:1}
+.header-context{display:flex;flex-direction:column;align-items:flex-end;gap:9px;flex-shrink:0}
+.header-title{font-size:12px;font-weight:600;color:var(--ink)}
+.snapshot{font-size:11px}
+.kicker{color:#b6510a}
+.kpi.total{border-top:3px solid #f58220;padding-top:18px}
+.kpi:not(.total){border-top:3px solid #e0e5e2;padding-top:18px}
+.primary{background:#087442;border-color:#087442}
+.primary:hover{background:#075c35;border-color:#075c35}
+.footer-logo{display:block;width:250px;max-width:100%;height:auto;object-fit:contain}
+footer{align-items:center;min-height:84px;background:#fff;padding:20px;border-top:2px solid #f58220;border-radius:8px 8px 0 0}
+@media(max-width:1250px){.topbar{gap:16px}.header-title{font-size:11px}.brand{font-size:23px}.kpi.total,.kpi:not(.total){padding-top:13px}}
+@media(min-width:651px) and (max-width:950px){.brand{font-size:11px;border-left:0;padding:7px 0;text-align:center}.brand>span:last-child{font-size:11px}.brand small{font-size:10px;margin-top:5px}.topbar{padding:16px 24px}.institutional-logo{width:300px}.header-title{max-width:145px;text-align:right}}
+@media(max-width:650px){.sidebar{padding:12px 18px;border-top-width:3px}.brand{font-size:17px;padding:2px 0 2px 9px}.brand>span:last-child{font-size:17px}.brand small{font-size:11px;margin-top:3px}.topbar{height:auto;min-height:118px;padding:18px;gap:15px;flex-direction:column;align-items:flex-start}.institutional-logo{width:334px;max-width:100%}.header-context{width:100%;flex-direction:row;justify-content:space-between;align-items:center;gap:12px}.header-title,.snapshot{font-size:10px}.kpi.total{padding-top:15px}.footer-logo{width:230px}footer{align-items:flex-start;flex-direction:column;gap:18px;padding:20px 16px}}
+@media print{.topbar{display:flex!important;height:70px;padding:0 0 14px;margin-bottom:18px;flex-direction:row;align-items:center;break-inside:avoid}.institutional-logo{width:300px}.header-context{width:auto;flex-direction:column;align-items:flex-end}.header-title{font-size:11px}.snapshot{font-size:10px}footer{flex-direction:row;align-items:center;padding:14px 0;border-radius:0}.footer-logo{width:220px}}
